@@ -1,8 +1,7 @@
 {
-  "recommendations": [
-    "davidanson.vscode-markdownlint",
-    "esbenp.prettier-vscode",
-    "streetsidesoftware.code-spell-checker",
-    "tyriar.lorem-ipsum"
-  ]
+    "recommendations": [
+        "myml.vscode-markdown-plantuml-preview",
+        "esbenp.prettier-vscode",
+        "jebbs.plantuml"
+    ]
 }
