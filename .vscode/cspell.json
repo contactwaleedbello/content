@@ -81,7 +81,7 @@
     // Any base64 in data URLs, even those shorter than 40 chars (which don't match Base64 regex)
     "data:[^\\s;]+;base64,[a-zA-Z0-9/+=…]*",
     "[Ee][Tt]ag: ([\\w-]+|\"[\\w-]+\")",
-    // Note: we don't add other headers that may contain base64 data, becase
+    // Note: we don't add other headers that may contain base64 data, because
     // they often contain other meaningful directives that we want to spell
     // check too
     "url\\(\"data\\:image/svg\\+xml.*\"\\)[,;]",
@@ -128,7 +128,7 @@
     {
       "name": "non-english",
       "path": "./dictionaries/non-english.txt",
-      "description": "Non-English words. Note that some non-English words denote well-known concepts, such as \"Adlam script\" or \"Adis Ababa\", in which case they should be placed in cultural-words. This dictionary is intended for entire scripts for demonstrating non-English languages.",
+      "description": "Non-English words. Note that some non-English words denote well-known concepts, such as \"Adlam script\" or \"Addis Ababa\", in which case they should be placed in cultural-words. This dictionary is intended for entire scripts for demonstrating non-English languages.",
       "addWords": false,
       "noSuggest": true
     },
